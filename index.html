@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" 
 integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" 
-crossorigin="anonymous" referrerpolicy="no-referrer" />
+crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
-<link rel="stylesheet" href="./styles/output.css">
+<link rel="stylesheet" href="./styles/output.css"/>
 
     <title>Bem Vindo!!</title>
 </head>
@@ -47,7 +51,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
         <!-- HAMBURGUER 1 -->
-        <div class="flex gap-2">
+        <div class="flex gap-2 w-full">
             <img 
             src="./assets/hamb-1.png" 
             alt="Hamburguer Tradicional"
@@ -60,11 +64,11 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
                 uma delicionsa salada de alface e tomate e maionese da casa.</p>
                 
                  <div class="flex items-center gap-2 justify-between mt-3">
-                    <p class="font-bold text-lg">R$25,00</p>
+                    <p class="font-bold text-lg">R$30,00</p>
                     <button 
                     class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                    data-name=""Hamburguer Tradicional
-                    data-price="25.00"
+                    data-name="Hamburguer Tradicional"
+                    data-price="30.00"
                     >
                         <i class="fa fa-cart-plus text-lg text-white"></i>
                     </button>
@@ -76,7 +80,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
         <!-- FIM HAMBURGUER 1 -->
 
         <!-- HAMBURGUER 2 -->
-        <div class="flex gap-2">
+        <div class="flex gap-2 w-full">
             <img 
             src="./assets/hamb-2.png" 
             alt="Hamburguer Smash"
@@ -92,7 +96,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
                     <p class="font-bold text-lg">R$38,00</p>
                     <button 
                     class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                    data-name=""Hamburguer Smash
+                    data-name="Hamburguer Smash"
                     data-price="38.00"
                     >
                         <i class="fa fa-cart-plus text-lg text-white"></i>
@@ -105,7 +109,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
         <!-- FIM HAMBURGUER 2 -->
 
         <!-- HAMBURGUER 3 -->
-        <div class="flex gap-2">
+        <div class="flex gap-2 w-full">
             <img 
             src="./assets/hamb-3.png" 
             alt="Hamburguer Trufado "
@@ -121,7 +125,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
                     <p class="font-bold text-lg">R$27,90</p>
                     <button 
                     class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                    data-name=""Hamburguer Trufado
+                    data-name="Hamburguer Trufado"
                     data-price="27.90"
                     >
                         <i class="fa fa-cart-plus text-lg text-white"></i>
@@ -134,7 +138,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
         <!-- FIM HAMBURGUER 3 -->
 
         <!-- HAMBURGUER 4 -->
-         <div class="flex gap-2">
+         <div class="flex gap-2 w-full">
             <img 
             src="./assets/hamb-4.png" 
             alt="Rustico Duplo"
@@ -147,11 +151,11 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
                 deliciosos onion rings, finalizado com a nossa mostarda com mel da casa.</p>
                 
                  <div class="flex items-center gap-2 justify-between mt-3">
-                    <p class="font-bold text-lg">R$28,90</p>
+                    <p class="font-bold text-lg">R$33,90</p>
                     <button 
                     class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                    data-name=""Rustico Duplo
-                    data-price="28.90"
+                    data-name="Rustico Duplo"
+                    data-price="33.90"
                     >
                         <i class="fa fa-cart-plus text-lg text-white"></i>
                     </button>
@@ -162,25 +166,39 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
         </div>
         <!-- FIM HAMBURGUER 4 -->
 
-        <!-- HAMBURGUER 5-->
+</div>
+
+    </main>
+
+    <div class="mx-auto mas-w-7xl px-2 my-2">
+    <h2 class="font-bold text-3xl">
+        Bebidas
+    </h2>
+    </div>
+
+<div>
+
+<!--GRID BEBIDAS-->
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
+
+        <!-- BEBIDA 1 -->
          <div class="flex gap-2">
             <img 
-            src="./assets/hamb-4.png" 
-            alt="Rustico Duplo"
+            src="./assets/refri-1.png" 
+            alt="Coca Lata"
             class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
             />
 
-            <div>
-                <p class="font-bold">Rustico Duplo</p>
-                <p class="text-sm">Pão levemente tostado, dois suculentos hambúrgueres de 160g cada, queijo cremoso,
-                deliciosos onion rings, finalizado com a nossa mostarda com mel da casa.</p>
+            <div class="w-full">
+                <p class="font-bold">Coca Lata</p>
                 
                  <div class="flex items-center gap-2 justify-between mt-3">
-                    <p class="font-bold text-lg">R$28,90</p>
+                    <p class="font-bold text-lg">R$6,00</p>
                     <button 
                     class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                    data-name=""Rustico Duplo
-                    data-price="28.90"
+                    data-name="Coca Lata"
+                    data-price="6.00"
                     >
                         <i class="fa fa-cart-plus text-lg text-white"></i>
                     </button>
@@ -189,17 +207,83 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
             </div>
 
         </div>
-        <!-- FIM HAMBURGUER 5 -->
+        <!-- FIM BEBIDA 1 -->
 
+        <!-- BEBIDA 2 -->
+         <div class="flex gap-2">
+            <img 
+            src="./assets/refri-2.png" 
+            alt="Guarana Lata"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+            />
 
-    
-    </main>
+            <div class="w-full">
+                <p class="font-bold">Guarana Lata</p>
+                
+                 <div class="flex items-center gap-2 justify-between mt-3">
+                    <p class="font-bold text-lg">R$6,00</p>
+                    <button 
+                    class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                    data-name="Guarana Lata"
+                    data-price="6.00"
+                    >
+                        <i class="fa fa-cart-plus text-lg text-white"></i>
+                    </button>
+                 </div>
+
+            </div>
+
+        </div>
+        <!-- FIM BEBIDA 2 -->
+
+    </div>
+<!--FIM GRID BEBIDAS-->
 
 </div>
 <!-- FIM MENU -->
 
+<!-- MODAL CART -->
+<div class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden"
+     id="cart-modal">
+
+    <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
+        <h2 class="text-center font-bold text 2xl mb-2">Meu Carrinho</h2>
+
+        <div id="cart-items" class="flex justify-between mb-2 flex-col"></div>
+
+        
+        <p class="font-bold">Total: <span id="cart-total">0.00</span></p>
+
+        <p class="font-bold mt-2">Endereço de entrega</p>
+        <input type="text"
+            placeholder="Digite seu endereço completo:"
+            id="adress"
+            class="w-full border-2 p-1 rounded my-1"
+            />
+        <p class="text-red-500 hidden" id="adress-warn">Por favor, digite seu endereço completo!</p>
+
+        <div class="flex items-center justify-between mt-4 w-full">
+            <button id="close-modal-btn">Fechar</button>
+            <button id="checkout-btn" class="bg-green-500 text-white px-4 py-1 rounded">Finalizar Pedido</button>
+        </div>
+    </div>
+
+</div>
+<!-- FIM MODAL CART -->
+
+<!-- BUTTON CART FOOTER -->
+<footer class="w-full bg-red-500 py-3 fixed bottom-0 z-40 flex items-center justify-center">
+    <button class="flex items-center gap-2 text-white font-bold"
+     id="cart-btn"
+    >
+        (<span id="cart-count">0</span>)
+        Veja meu carrinhos
+        <i class="fa fa-cart-plus text-lg text-white"></i>
+    </button>
+</footer>
+<!-- FIM BUTTON CART FOOTER -->
+
+<script src="script.js"></script>
 
 </body>
-</html>
-
-<!-- sempre rodar no cmd na pasta do arquivo o comando: npm run dev, para deixar o tailwind rodando
+</html
